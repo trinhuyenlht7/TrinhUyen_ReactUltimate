@@ -8,7 +8,7 @@ const MyComponent = () => {
   return (
     <>
       <div>MyComponent of {name}</div>
-      <div>{JSON.stringify(info)}</div>
+      <div>{info.name}</div>
       <div>{console.log("Uyen Uyen")}</div>
     </>
   );
