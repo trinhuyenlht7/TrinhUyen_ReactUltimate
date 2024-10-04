@@ -1,5 +1,4 @@
-const TodoData = (props) => {
-  const { name, age, info } = props;
+const TodoData = () => {
   return (
     <div className="todo-data">
       <div>Play bida</div>
