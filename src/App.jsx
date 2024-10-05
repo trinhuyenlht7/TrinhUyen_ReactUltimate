@@ -10,7 +10,8 @@ const App = () => {
   ]);
 
   const addNewTodo = (name) => {
-    console.log(`Hi ${name} nha, chuc chin hoc nhanh nha`);
+    const newTodo = { id: crypto.randomUUID(), name: name };
+    setTodos([...todos, newTodo]);
   };
 
   return (

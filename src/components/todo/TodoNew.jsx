@@ -10,6 +10,7 @@ const TodoNew = (props) => {
 
   const handleOnClickAdd = () => {
     console.log(todoName);
+    addNewTodo(todoName);
   };
 
   return (
