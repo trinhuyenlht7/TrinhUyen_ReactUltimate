@@ -9,8 +9,8 @@ const TodoNew = (props) => {
   };
 
   const handleOnClickAdd = () => {
-    console.log(todoName);
     addNewTodo(todoName);
+    setTodoName("");
   };
 
   return (
@@ -20,6 +20,7 @@ const TodoNew = (props) => {
         onChange={(event) => {
           handleOnChangeTodoInput(event.target.value);
         }}
+        value={todoName}
       />
       <button
         onClick={() => {
@@ -28,7 +29,6 @@ const TodoNew = (props) => {
       >
         ADD
       </button>
-      <div>new todo : {todoName}</div>
     </div>
   );
 };
