@@ -1,0 +1,38 @@
+/* Header.css */
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-item a:hover {
+  color: #61dafb;
+}
+
+nav a.active {
+  color: #21a1f1; /* Active link text color */
+}
