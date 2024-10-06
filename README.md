@@ -1,7 +1,4 @@
-# React Ultimate Starter Template
-
-Template này được sử dụng cho series React Ultimate (Vite) của tác giả Hỏi Dân IT (Eric)
-
+git 
 ### Môi trường chạy dự án: Node.js v20.14.0
 
 https://nodejs.org/download/release/v20.14.0/
