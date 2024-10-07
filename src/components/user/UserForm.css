@@ -1,0 +1,48 @@
+.user-form {
+  width: 100%;
+  max-width: 600px; /* Optional: set a max width for the form */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Gap between columns and rows */
+  padding: 20px 0;
+}
+
+.user-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form div span {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-form div input,
+.user-form div .ant-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.user-form .button-container {
+  grid-column: span 2; /* Makes the button take up both columns */
+  display: flex;
+  justify-content: flex-end; /* Align the button to the right */
+}
+
+.user-form button {
+  padding: 10px 20px;
+  background-color: #40a9ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: #1890ff;
+}
